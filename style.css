@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-color:#FBEAEB; */
+}
+body::-webkit-scrollbar{
+display: none;
+}
+.Page1{
+    height: 100vh;
+    width: 100vw;
+}
+.Page2{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+nav h1{
+    display: flex;
+    width: 40%;
+    font-size: 2rem;
+    color:  #2F3C7E;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+nav h1 .dot {
+    color: green;
+    font-size: 2.5rem;
+}
+ .links{
+    width: 60%;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+nav a{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  font-weight: 700;
+  color: #2F3C7E;
+  text-decoration: none;
+}
+nav a:hover{
+    color: #00A5E4;
+}
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.text1{
+    width: 50%;
+    height: 90%;
+}
+.textsub{
+    width: 60%;
+    
+    margin: 5% 10%;
+    padding: 5%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    /* Add a transparency to shadow */
+    box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.3);
+}
+.textsub>h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #2F3C7E;
+}
+.textsub>p{
+    margin: 1rem 0rem;
+    color: #2F3C7E;
+    font-size: 1.3rem;
+    
+}
+.image{
+    width: 50%;
+    height: 90%;
+}
+button.LearnM{
+font-size: 1.5rem;
+padding: 1rem;
+border-radius: 10px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color:#2F3C7E;
+    /* Add a transparency to shadow */
+    box-shadow:0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.image>img{
+    width: 500px;
+    margin: 1.8rem;
+}
+.Page2{
+    height: 100vh;
+    width: 100vw;
+}
+.client{
+    height: 45%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10%;
+    margin-left: 1.5rem;
+}.Page2>h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2F3C7E;
+    text-transform: uppercase;
+}
+.client>a{
+    height: 60%;
+    width: 15%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #a09e9e;
+}
+.Review{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 1REM;
+    
+}
+.review1{
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    }
+.review2{
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+}
+.r1{
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+color:#2F3C7E;
+    /* Add a transparency to shadow */
+    box-shadow:0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.portrait{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: #2F3C7E;
+}
+.r2{
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+color:#2F3C7E;
+    /* Add a transparency to shadow */
+    box-shadow:0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.text{
+    padding: 5%;
+    width: 70%;
+    height: 100%;
+}
+.text>p{
+margin: 1rem 0rem;
+}
+button.Read{
+font-size: 1rem;
+padding: 1rem;
+border-radius: 10px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color:#2F3C7E;
+    /* Add a transparency to shadow */
+    box-shadow:0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+ }
+ .Page3{
+    height: 100vh;
+    width: 100vw;
+}
+.unique{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 1rem;
+}
+.employeeimage{
+    height: 100%;
+    width: 50%;
+}
+.diffrent{
+    height: 100%;
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    height: 20%;
+    background-color: #2F3C7E;
+    display: flex;
+}
+.employeeimage>img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 500px;
+    border-radius: 5px;
+    border:2px solid #2F3C7E;
+}
+.diffrent{
+    padding: 1rem;
+}
+.diffrent>h1{
+    color: #2F3C7E;
+}
+.diffrent>p{
+    margin: 1rem 0rem;
+    color: #2F3C7E;
+    font-size: 1.5rem;
+}
+.copyright{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon{
+    height: 100%;
+    width: 50%;
+}
+button.copy{
+    font-size: 1rem;
+    height: 4rem;
+    width: 8rem;
+    margin: 2rem;
+    color: #ffffff !important;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #2F3C7E;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright a{
+    color: #ffffff;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 700px)
+{
+    .Page1{
+        height: auto;
+    }
+     .Page2{
+        height: auto;
+    } 
+    .Page3{
+        height: auto;
+    }
+    nav>h1{
+        width: 100%;
+        margin-left: 1rem;
+    }
+   nav a{
+    display: none;
+   } 
+   .textsub{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 2%;
+   }
+   .textsub>h1{
+    font-size: 1.5rem;
+   }
+   .textsub>p{
+    font-size: 0.8rem;
+   }
+   .image>img{
+    width: 150px;
+    margin-right: 0rem;
+   }
+   .text{
+   padding: 0%;
+   }
+   .LearnM{
+    padding: 0.5rem !important;
+    font-size: 0.8rem !important;
+   }
+   .client>a{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+   }
+   .client{
+    height: 20%;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+   }
+   .Page2>h1{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+   }
+   .text>h1{
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    margin-right: 0.5rem;
+   }
+   .text>p{
+    font-size: 0.5rem;
+    margin: 0.5rem;
+   }
+   .portrait{
+    height: 1rem;
+    width: 1rem;
+   }
+   button.Read{
+    font-size: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+   }
+   .review1{
+    height: 80%;
+   }
+   .review2{
+    height: 80%;
+   }
+   .employeeimage>img{
+    width: 150px;
+   }
+   .diffrent>h1{
+    font-size: 1rem;
+   }
+   .diffrent>p{
+    font-size: 0.5rem;
+   }
+   button.copy{
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+   }
+   .links{
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+   }
+   .copyright>h6{
+    font-size: 0.5rem;
+    margin: 0.5rem;
+   }
+   .copyright a{
+    font-size: 0.5rem;
+   }
+   .icon{
+    font-size: 1rem;
+    margin-top: 3rem;
+   }
+}
