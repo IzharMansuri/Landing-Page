@@ -132,7 +132,7 @@ color:#2F3C7E;
 .client>a{
     height: 60%;
     width: 15%;
-    background-color: #ffffff;
+    background-color: #f1caca;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -261,6 +261,7 @@ button.copy{
     font-size: 1rem;
     height: 4rem;
     width: 8rem;
+    cursor: pointer;
     margin: 2rem;
     color: #ffffff !important;
     padding: 1rem;
